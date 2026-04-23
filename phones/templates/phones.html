@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Your phones : </h2>
+    {% for phone in object_list %}
+    <a href="{{phone.get_absolute_url}}">{{phone.phone_title}}</a><br><br>
+    {% endfor %}<br><br><br>
+    <a href="/create"><button>create phone</button></a>
+</body>
+</html>

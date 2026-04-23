@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>{{phone.phone_title}}</h2>
+    <b>Brand : </b>{{phone.phone_brand}}<br>
+    <b>Model : </b>{{phone.phone_model}}<br>
+    <b>Price : </b>{{phone.phone_price}} MAD<br>
+    <b>Added on : </b>{{phone.created_on}}<br><br><br>
+    <a href="{{phone.get_absolute_url}}update"><button type="submit">update</button></a>
+</body>
+</html>
