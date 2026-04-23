@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-kvyy9pn)pumrf9c@l3yehy#3s9i)qy*$@*$y14=dfb@151ucuo
 DEBUG = False
 
 ALLOWED_HOSTS = ["phoneshopping-production.up.railway.app"]
-CSRF_TRUSTED_ORIGINS=["https://phoneshopping-production.up.railway.app/"]
+CSRF_TRUSTED_ORIGINS=["https://phoneshopping-production.up.railway.app"]
 
 # Application definition
 
