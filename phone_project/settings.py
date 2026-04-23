@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-kvyy9pn)pumrf9c@l3yehy#3s9i)qy*$@*$y14=dfb@151ucuo
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["phoneshopping-production.up.railway.app"]
 
 
 # Application definition
